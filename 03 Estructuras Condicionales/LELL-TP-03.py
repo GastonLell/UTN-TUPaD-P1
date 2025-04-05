@@ -44,9 +44,7 @@ def calcular_sesgo():
   mediana = median(numeros_aleatorios)
   media = mean(numeros_aleatorios)
   print(numeros_aleatorios)
-  print("moda", moda)
-  print("mediana", mediana)
-  print("media", mediana)
+
   if (media > mediana and mediana > moda):
     print("Sesgo positivo")
   elif (media < mediana and mediana < moda):
